@@ -21,8 +21,8 @@ DesignoFolio
 
 You can find me on:
 
-- [Twitter](https://twitter.com/zee_shaan1)
-- [LinkedIn](https://www.linkedin.com/in/zeeshan-mukhtar-b0a12a243/)
+- [Twitter](https://twitter.com/ZeshanMukhtar01)
+- [LinkedIn](https://www.linkedin.com/in/zeeshanmukhtar1/)
 - [GitHub](https://github.com/ZeeshanMukhtar1)
 
 Feel free to connect with me on any of these platforms!
