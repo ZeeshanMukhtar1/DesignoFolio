@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--CSS Styles -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/favicon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon.png" />
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Zeeshan Mukhtar's Portfolio</title>
+
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav>
+    <a class="logo" href="#about">
+      <h1>Zeeshan Mukhtar</h1>
+    </a>
+    <ul class="navigation">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="burger-menu" id="burger-menu">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+      <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+    </button>
+  </nav>
+
+
+  <!-- Hero Section -->
+  <section class="hero" id="about">
+    <img src="./assets/images/Web Developer_Outline (1).svg" alt="jane-doe" loading="lazy" class="hero-img" />
+    <div class="bio animate__animated animate__shakeX">
+      <h2 class="bio-title">About Me</h2>
+      <p class="bio-text">
+        As a <b> front-end developer </b> and <b> IT student </b>, I create visually stunning and user-friendly
+        websites through
+        skills in HTML, CSS and JavaScript . My passion for design and user experience drives me to always seek
+        ways to enhance the user's journey.
+      </p>
+    </div>
+  </section>
+
+  <!-- More about -->
+  <section class="more-about">
+    <h2>More About Me</h2>
+    <p>
+      As a front-end developer and student of information technology, I specialize in creating visually appealing
+      and user-friendly websites. My skills include HTML, CSS , bootstrap and JavaScript, as well as experience
+      with
+      responsive design and cross-browser compatibility. I am also well-versed in UX design principles and am
+      always looking for ways to improve the user experience.
+    </p>
+    <p>
+      In addition to my technical skills, I am a quick
+      learner and am always looking to expand my knowledge and stay up-to-date with the latest industry trends. As
+      a student, I am constantly learning and expanding my skillset in order to become the best developer I can
+      be.
+    </p>
+  </section>
+
+  <!-- Skills section -->
+  <section class="skills" id="skills">
+    <h2 class="skill-header">My Top Skills</h2>
+
+    <div class="skills-wrapper">
+      <div class="first-set animate__animated animate__pulse">
+        <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card" />
+      </div>
+
+      <div class="second-set animate__animated animate__pulse">
+        <img src="assets/icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects section -->
+  <section class="projects" id="projects">
+    <h2 class="projects-title">Some of my Recent Projects</h2>
+    <div class="projects-container">
+      <div class="project-container project-card">
+        <img src="assets/images/project1.png" alt="weather app" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Weather Snap</h3>
+        <p class="project-details">
+          Weather Snap is a web application that allows users to check the current weather conditions in any location by
+          using the OpenWeatherMap API. The project is implemented using HTML, CSS, and JavaScript and covers several
+          core concepts in web development.
+        </p>
+        <a href="https://github.com/ZeeshanMukhtar1/Weather-Snap" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img src="assets/images/project4.png" alt="pianoo website" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Piano-Mate</h3>
+        <p class="project-details">
+          "Pianoo Mate" is a JavaScript project that enables piano enthusiasts to play and practice the instrument on a
+          web browser. The project utilizes event listeners to trigger the playing of piano notes through the use of
+          keyboard keys or by clicking on the virtual piano keys displayed on the web app..
+        </p>
+        <a href="https://github.com/ZeeshanMukhtar1/Piano-Mate" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img src="assets/images/project3.png" alt="portfolio website" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Develpor Portfolio</h3>
+        <p class="project-details">
+          The developer portfolio site showcases the developer's skills, experience, and previous projects. It is an
+          important tool for any developer to showcase their work and attract potential clients or employers. The site
+          often includes a brief introduction, a list of skills and technologies and a contact
+          form for inquiries.
+        </p>
+        <a href="#" target="_blank" class="project-link">Check it Out</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact section -->
+  <section class="contact" id="contact">
+    <h2>Get In Touch With Me</h2>
+    <div class="contact-form-container">
+      <div class="contact-form">
+        <form name="contact" method="POST" action="https://formspree.io/f/xrgvevkw">
+          <div class=" form-control">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field"
+              required />
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field"
+              required />
+          </div>
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
+              class="input-field" required></textarea>
+          </div>
+          <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social accounts - Fixed to the right -->
+  <div class="socials">
+    <a href="https://twitter.com/Zee_shaan1" target="_blank"><img src="assets/icons/icons8-twitter-circled.gif"
+        alt="Twitter" loading="lazy" class="socicon" /></a>
+    <a href="https://www.instagram.com/ze_shaan1/" target="_blank"><img src="assets/icons/icons8-instagram.gif"
+        alt="Instagram" loading="lazy" class="socicon" /></a>
+    <a href="https://www.linkedin.com/in/zeeshan-mukhtar-b0a12a243/" target="_blank"><img
+        src="assets/icons/icons8-linkedin-circled.gif" alt="Linkedin" loading="lazy" class="socicon" /></a>
+    <a href="https://github.com/ZeeshanMukhtar1" target="_blank"><img src="assets/icons/icons8-github.gif" alt="Github"
+        class="socicon" /></a>
+  </div>
+
+  <!-- Scroll to top -->
+  <!-- cursor -->
+  <div class="cursor"></div>
+  <i class="scroll-up" id="scroll-up"><img src="assets/icons/icons8-upward-arrow.gif" class="socicon up-arrow"
+      alt="" /></i>
+
+  <!-- Footer section -->
+  <footer>
+    <p class="copy">&copy; Copyright 2023</p>
+    <p class="copy">
+      Built with &#x2661; by
+      <a href="https://wa.link/da6q5g" target="_blank">Zeeshan</a>
+    </p>
+  </footer>
+
+  <!-- Website scripts -->
+  <script src="assets/js/app.js"></script>
+
+  <!-- Ion icons scripts -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
